@@ -12,6 +12,10 @@
 		5CEFE0111FF8D4A30023FB58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CEFE00F1FF8D4A30023FB58 /* Main.storyboard */; };
 		5CEFE0131FF8D4A30023FB58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CEFE0121FF8D4A30023FB58 /* Assets.xcassets */; };
 		5CEFE0161FF8D4A30023FB58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CEFE0141FF8D4A30023FB58 /* LaunchScreen.storyboard */; };
+		5CEFE0211FF8D9080023FB58 /* NotificationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEFE0201FF8D9080023FB58 /* NotificationExtensions.swift */; };
+		5CEFE0231FF903250023FB58 /* UIFontExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEFE0221FF903250023FB58 /* UIFontExtensions.swift */; };
+		5CEFE0251FF905120023FB58 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEFE0241FF905120023FB58 /* DateExtensions.swift */; };
+		5CEFE0271FF9081D0023FB58 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEFE0261FF9081D0023FB58 /* DateHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		5CEFE0121FF8D4A30023FB58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CEFE0151FF8D4A30023FB58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CEFE0171FF8D4A30023FB58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CEFE0201FF8D9080023FB58 /* NotificationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationExtensions.swift; sourceTree = "<group>"; };
+		5CEFE0221FF903250023FB58 /* UIFontExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFontExtensions.swift; sourceTree = "<group>"; };
+		5CEFE0241FF905120023FB58 /* DateExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		5CEFE0261FF9081D0023FB58 /* DateHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 		5CEFE00A1FF8D4A30023FB58 /* SwiftExtensions */ = {
 			isa = PBXGroup;
 			children = (
+				5CEFE01F1FF8D83A0023FB58 /* Extensions */,
 				5CEFE00B1FF8D4A30023FB58 /* AppDelegate.swift */,
 				5CEFE00D1FF8D4A30023FB58 /* ViewController.swift */,
 				5CEFE00F1FF8D4A30023FB58 /* Main.storyboard */,
@@ -62,6 +71,17 @@
 				5CEFE0171FF8D4A30023FB58 /* Info.plist */,
 			);
 			path = SwiftExtensions;
+			sourceTree = "<group>";
+		};
+		5CEFE01F1FF8D83A0023FB58 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5CEFE0201FF8D9080023FB58 /* NotificationExtensions.swift */,
+				5CEFE0241FF905120023FB58 /* DateExtensions.swift */,
+				5CEFE0261FF9081D0023FB58 /* DateHelper.swift */,
+				5CEFE0221FF903250023FB58 /* UIFontExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +157,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CEFE00E1FF8D4A30023FB58 /* ViewController.swift in Sources */,
+				5CEFE0251FF905120023FB58 /* DateExtensions.swift in Sources */,
+				5CEFE0211FF8D9080023FB58 /* NotificationExtensions.swift in Sources */,
+				5CEFE0271FF9081D0023FB58 /* DateHelper.swift in Sources */,
+				5CEFE0231FF903250023FB58 /* UIFontExtensions.swift in Sources */,
 				5CEFE00C1FF8D4A30023FB58 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
